@@ -57,3 +57,9 @@ helm upgrade --install confluent-operator confluentinc/confluent-for-kubernetes 
 ```
 kubectl apply -f confluent-platform.yaml
 ```
+
+## Deploy Confluent Platform (minimal version)
+
+```
+kubectl apply -f confluent-platform-minimal.yaml
+```

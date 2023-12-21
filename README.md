@@ -26,8 +26,7 @@ Check that your kubernetes cluster is up and running
 kubectl cluster-info --context kind-kind
 ```
 
-## Deploy CFK 
-
+## Namespacing CFK 
 
 Create `confluent` namespace
 
@@ -58,7 +57,7 @@ helm upgrade --install confluent-operator confluentinc/confluent-for-kubernetes 
 kubectl apply -f confluent-platform.yaml
 ```
 
-## Deploy Confluent Platform (minimal version)
+## ... or deploy Confluent Platform (minimal version)
 
 ```
 kubectl apply -f confluent-platform-minimal.yaml

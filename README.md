@@ -57,7 +57,17 @@ helm upgrade --install confluent-operator confluentinc/confluent-for-kubernetes 
 kubectl apply -f confluent-platform.yaml
 ```
 
-## ... or deploy Confluent Platform (minimal version)
+## Validate in Control Center
+
+Set up port forwarding to Control Center web UI from local machine:
+
+```
+kubectl port-forward controlcenter-0 9021:9021
+```
+
+Browse to Control Center in http://localhost:9021
+
+## [Alternative] Deploy Confluent Platform (minimal version)
 
 ```
 kubectl apply -f confluent-platform-minimal.yaml

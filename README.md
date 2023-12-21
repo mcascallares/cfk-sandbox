@@ -67,7 +67,7 @@ kubectl port-forward controlcenter-0 9021:9021
 
 Browse to Control Center in http://localhost:9021
 
-## [Alternative] Deploy Confluent Platform (minimal version)
+## [Alternative] Deploy Confluent Platform - Minimal version
 
 ```
 kubectl apply -f confluent-platform-minimal.yaml

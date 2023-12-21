@@ -12,7 +12,7 @@ of [this repo](https://github.com/confluentinc/confluent-kubernetes-examples/tre
   - Kubectl installed on your local machine
   
 
-## Deploy your Kubernetes cluster in Docker
+## Deploy your Kubernetes cluster with Docker
 
 Deploy your Kubernetes cluster, with 3 workers and 1 control plane nodes.
 
@@ -29,7 +29,7 @@ kubectl cluster-info --context kind-kind
 ## Deploy CFK 
 
 
-Create Confluent namespace
+Create `confluent` namespace
 
 ```
 kubectl create namespace confluent

@@ -32,7 +32,11 @@ Create `confluent` namespace
 
 ```
 kubectl create namespace confluent
+```
 
+Set it as current namespace
+
+```
 kubectl config set-context --current --namespace=confluent
 ```
 
